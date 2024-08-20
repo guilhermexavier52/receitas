@@ -1,0 +1,215 @@
+body{
+	background: rgb(255, 223, 120);
+	background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(158, 84, 0);
+	font-family: "Arial";
+}
+.menu ul{
+	list-style: none;
+	position: relative;
+}
+.menu ul li{
+	width: 150px;
+	float: left;
+}
+.menu a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: rgb(158, 84, 0);
+	color: white;
+}
+.menu ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+
+}
+.menu a:hover{
+	background-color:rgb(158, 84, 0);
+	color: rgb(215, 2194, 221);
+}
+.menu ul ul li{
+	float: none;
+	border-bottom: solid 1px rgb(158, 84, 0);
+}
+.menu ul ul li a{
+	background-color: rgb(181, 120, 50);
+}
+#logo_imagem{
+	width: 100%;
+}
+#logo{
+	width: 100%;
+	margin: auto;	
+}
+#linha{
+	background-color: rgb(169, 50, 38);
+	width: 100%;
+	height: 5px;
+	margin: auto;
+	border: none;
+}
+#linha2{
+	background-color: rgb(169, 50, 38);
+	width: 700px;
+	height: 5px;
+	margin: auto;
+	border: none;
+}
+#principal{
+	width: 900px;
+	margin: auto;
+	background: white;
+}
+.titulo{
+	text-align: center;
+	font-family: "Georgia", Serif;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 7px;
+	font-weight: bold;
+	color: rgb(36, 113, 163);
+}
+.caixa_img{
+	text-align: center;
+}
+#img_bolinho{
+	width: 690px;
+	padding-left: 30px;
+}
+#img_strogonoff{
+	width: 690px;
+}
+#img_bolo{
+	width: 690px;
+}
+#img_mousse{
+	width: 690px;
+}
+.data{
+	text-align: left;
+	font-size: 15px;
+	font-family: "Helvetica", Sans-serif;
+	color: grey;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.subtitulo{
+	text-align: left;
+	font-family: "Georgia", Serif;
+	font-size: 25px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	color: rgb(52, 73, 94);
+}
+.text{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	font-size: 20px;
+	text-align: justify;
+	font-family: "Helvetica", Sans-serif;
+	visibility: hidden;
+	display: none;
+}
+.text ul{
+	padding-left: 20px;
+}
+.text a{
+	text-decoration: none;
+	color: rgb(108, 52, 131);
+}
+.text a:hover{
+	color: rgb(236, 112, 99);
+	text-decoration: underline;
+}
+.botao_mostrar{
+	width: 10px;
+	margin: auto;
+}
+.mostrar{
+	padding-top: 5px;
+	width: 30px;
+	text-align: center;
+}
+#text_contato{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	font-size: 20px;
+	text-align: justify;
+	font-family: "Helvetica", Sans-serif;
+}
+#formulario{
+	font-size: 25px;
+	text-align: left;
+	font-family: "Helvetica", Sans-serif;
+	padding-left: 40px;
+	padding-right: 20px;
+	font-weight: bold;
+	color: rgb(139, 58, 98);
+}
+#botao{
+	background: #EE6363;
+	color: white;
+	border: none;
+	height: 50px;
+	width: 100px;
+	font-weight: bold; 
+	font-size: 15px; 
+	font-family: arial, sans-serif;
+	text-shadow:none;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow:0 5px 0 #CD5555;
+
+}
+#botao:hover{
+	background: #CD5555;
+	color: white;
+	border: none;
+	height: 50px;
+	width: 100px;
+	font-weight: bold; 
+	font-size: 15px; 
+	font-family: arial, sans-serif;
+	text-shadow:none;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow:0 5px 0 #8B3A3A;
+
+}
+#botao:active{
+	position:relative;
+	top:5px;
+	box-shadow:none;
+	
+}
+.caixa_resultado{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-align: left;
+	font-family: "Helvetica", Sans-serif;
+	font-weight: bold;
+}
